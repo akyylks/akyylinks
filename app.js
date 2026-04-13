@@ -23,7 +23,7 @@ const LINKS = [
 
 const PROFILE = {
   name: 'Akyy Personalizados',
-  bio: 'Bem-vinda aos meus links 🌸',
+  bio: 'Bem-vindo(a) aos meus links 🌸',
   avatar: 'avatar.png',
 };
 
