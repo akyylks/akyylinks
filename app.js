@@ -14,18 +14,6 @@ const LINKS = [
     adult: false,
   },
   {
-    network: 'tiktok',
-    label: 'TikTok',
-    url: 'https://tiktok.com',
-    adult: false,
-  },
-  {
-    network: 'onlyfans',
-    label: 'OnlyFans',
-    url: 'https://onlyfans.com',
-    adult: true,
-  },
-  {
     network: 'telegram',
     label: 'Telegram (prévias)',
     url: 'https://t.me/+IPc3U_Nadds0ZmE5',
