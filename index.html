@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akyy Personalizados — meus links" />
+  <title>Akyy Personalizados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- +18 Warning Modal -->
+  <div id="adult-overlay" class="adult-overlay hidden">
+    <div class="adult-modal">
+      <span class="adult-icon">🔞</span>
+      <h2 class="adult-title">Conteúdo adulto</h2>
+      <p class="adult-text">Este link é destinado a maiores de 18 anos. Você confirma que tem 18 anos ou mais?</p>
+      <div class="adult-buttons">
+        <button class="adult-cancel-btn" id="adult-cancel-btn">Voltar</button>
+        <button class="adult-confirm-btn" id="adult-confirm-btn">Sim, tenho 18+</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <main class="main-container">
+    <div class="profile-card">
+
+      <div class="avatar-wrapper">
+        <img id="profile-avatar" src="avatar.png" alt="Foto de perfil" class="avatar-img" />
+      </div>
+
+      <h1 class="profile-name" id="profile-name">Akyy Personalizados</h1>
+      <p class="profile-bio" id="profile-bio">Bem-vinda aos meus links 🌸</p>
+
+      <div class="links-container" id="links-container"></div>
+
+      <p class="footer-text">Feito por JJ</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
