@@ -1,4 +1,3 @@
-// ── DADOS — edite aqui seus links ──────────────────────
 
 const LINKS = [
   {
@@ -27,7 +26,7 @@ const PROFILE = {
   avatar: 'avatar.png',
 };
 
-// ── METADADOS POR REDE ─────────────────────────────────
+
 
 const NETWORK_META = {
   instagram: { icon: '📸', class: 'net-instagram' },
@@ -78,14 +77,13 @@ adultOverlay.addEventListener('click', (e) => {
   if (e.target === adultOverlay) hideAdultModal();
 });
 
-// ── HELPERS ────────────────────────────────────────────
 
 function openUrl(url) {
   const href = /^https?:\/\//i.test(url) ? url : 'https://' + url;
   window.open(href, '_blank', 'noopener,noreferrer');
 }
 
-// ── RENDER ─────────────────────────────────────────────
+
 
 function renderProfile() {
   document.getElementById('profile-name').textContent = PROFILE.name;
@@ -127,7 +125,6 @@ function renderLinks() {
   });
 }
 
-// ── INIT ───────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
   renderProfile();
